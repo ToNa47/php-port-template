@@ -1,19 +1,15 @@
 <?php
 $profile = [
-    "name"       => "Nathan",
-    "handle"     => "ToNa47 (Ikker)",
+    "name"       => "",
+    "handle"     => "",
     "title"      => "Student Developer",
     "bio"        => "Sedang belajar web development, tertarik dengan PHP, sistem backend, dan proyek-proyek kecil.",
     "location"   => "Indonesia",
-    "github"     => "https://github.com/ToNa47",
-    "email"      => "awaslupaya21@gmail.com",
+    "github"     => "https://github.com/git",
+    "email"      => "email",
     "skills"     => ["PHP", "JavaScript", "MySQL", "Git", "HTML/CSS"],
     "about" => [
-        "Student from Indonesia",
-        "Currently learning Python, Java, Linux",
-        "Interested in Cyber Security",
-        "Building random projects for fun",
-        "Learning something new every day",
+    "",
     ],
     "social" => [
         "Instagram" => "https://instagram.com/sednzt",
