@@ -4,10 +4,10 @@ Template dasar aplikasi web PHP dengan sistem routing sederhana, koneksi databas
 
 ## ✨ Fitur
 
-- **Routing sederhana** berbasis parameter `?page=` — hanya halaman yang benar-benar ada di folder `pages/` yang bisa diakses, sisanya otomatis diarahkan ke halaman 404.
+- **Routing sederhana** berbasis parameter `?page=` hanya halaman yang benar-benar ada di folder `pages/` yang bisa diakses, sisanya otomatis diarahkan ke halaman 404.
 - **Halaman bawaan**: `home`, `dashboard`, `profile`, `ticket`, `projects`.
 - **Koneksi database MySQL (mysqli)** dengan kredensial diambil dari environment variable, jadi tidak ada data sensitif yang ikut ter-commit ke repo.
-- **Error handling aman** — jika koneksi database gagal, detail error dicatat ke log server, sementara pengguna hanya melihat pesan generik.
+- **Error handling aman** jika koneksi database gagal, detail error dicatat ke log server, sementara pengguna hanya melihat pesan generik.
 - **Pengiriman email** menggunakan [PHPMailer](https://github.com/PHPMailer/PHPMailer) (terpasang lewat Composer).
 - **Header keamanan dasar** (`X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`) sudah diset di `index.php`.
 - **Background canvas partikel** (`assets/particles.js`) yang otomatis tampil di halaman-halaman tertentu (`home`, `dashboard`, `profile`, `projects`, `404`).
